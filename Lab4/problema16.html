@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.9.0.min.js"></script>
+<script>
+Bokeh.set_log_level("info");
+</script>
+  </head>
+  <body>
+    <div id="b06658ee-20fd-43ae-847f-9eba0e110ddd" data-root-id="p1009" style="display: contents;"></div>
+  
+    <script type="application/json" id="edde36ce-a3d1-4742-97bc-19fd9c55a7d7">
+      {"a60a109a-041d-4536-a82a-607defe3a414":{"version":"3.9.0","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p1053","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p1054"}}},"roots":[{"type":"object","name":"Figure","id":"p1009","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p1010"},"y_range":{"type":"object","name":"DataRange1d","id":"p1011"},"x_scale":{"type":"object","name":"LinearScale","id":"p1019"},"y_scale":{"type":"object","name":"LinearScale","id":"p1020"},"title":{"type":"object","name":"Title","id":"p1012","attributes":{"text":"Grafic Interactiv: Value vs Wage (Top 100 Afaceri)"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1047","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1006","attributes":{"selected":{"type":"object","name":"Selection","id":"p1007","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1008"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/yXBWS8CAAAA4A85opBzjkjXg2PSMmflHGuL3MbY2vTgtZjV+CW82Tz7iR58X7t/AXRiAIOYQDci6EUb+jCLGXRgEtOIIYguLGAcS+jHMqJYwyjCSGIdU5jDEOaRxjaKOMUw8shgEyNYRA9OcIEKCigjh12sIo59XGMPWdxgCyEc4wAlJPCKF7xjA1+o4xyX+MQjWjjCE64whiZWcIsqHnCHD9zjGT9o4Aw7SOEbb6jhF4f4A/4/iH6QAQAA"},"shape":[100],"dtype":"int32","order":"little"}],["Name",{"type":"ndarray","array":["Neymar Jr","L. Messi","K. De Bruyne","E. Hazard","P. Dybala","H. Kane","K. Mbapp\u00e9","L. Su\u00e1rez","A. Griezmann","R. Lewandowski","Cristiano Ronaldo","T. Kroos","C. Eriksen","Isco","De Gea","M. Salah","J. Rodr\u00edguez","Coutinho","J. Oblak","L. Modri\u0107","M. Icardi","S. Ag\u00fcero","P. Pogba","N. Kant\u00e9","R. Lukaku","L. Insigne","L. San\u00e9","E. Cavani","David Silva","G. Bale","Bernardo Silva","Casemiro","P. Aubameyang","M. ter Stegen","S. Umtiti","G. Higua\u00edn","R. Sterling","M. Verratti","Marco Asensio","T. Courtois","Roberto Firmino","C. Immobile","S. Man\u00e9","Sergio Busquets","K. Koulibaly","Sergio Ramos","S. Milinkovi\u0107-Savi\u0107","Sa\u00fal","N. Fekir","R. Varane","M. \u0160kriniar","M. Ham\u0161\u00edk","Douglas Costa","I. Rakiti\u0107","M. Hummels","Thiago","Koke","T. M\u00fcller","D. Mertens","A. Lacazette","V. van Dijk","D. God\u00edn","M. Pjani\u0107","M. Reus","M. \u00d6zil","Marcelo","D. Alli","A. Martial","M. Depay","Ederson","Gabriel Jesus","Bruno Fernandes","J. Kimmich","R. Mahrez","O. Demb\u00e9l\u00e9","Y. Brahimi","F. Thauvin","T. Alderweireld","Diego Costa","D. Alaba","M. Neuer","Jorginho","Jordi Alba","K. Manolas","I. Peri\u0161i\u0107","A. S\u00e1nchez","Parejo","H. Son","Paulinho","K. Benzema","Anderson Talisca","N. S\u00fcle","Alisson","Alex Sandro","H. Lloris","T. Lemar","Marquinhos","R. Nainggolan","M. Kova\u010di\u0107","Azpilicueta"],"shape":[100],"dtype":"object","order":"little"}],["Wage",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/1VSu0oDURQ8PmJ8G11FRYQVLG1S2oSbXkhrYWFjk8pKQSwuksIPyAfIljYWsbARbmOnhYJVmpSChe/HiqjkzJmVrYYz53FnZldExLUmqyIipcqSYud4RtGHaUU3MJRDqX+67vzmxQL4Vk+uH5/Nac073O+sRsrL+YRiiIHk+Z68vOt9n8zb/C/q2pTWPjE9uyOoo1FFt9yvGK6KilIfVIy34I96JC3k+KOVEubXxhSp192h5r2wJ9oPleHcPPs++ladrDNfxvvyrO75myf4uXxWlB36hS8pvKLf+MG9DehlbnLYh/ctF9l/wxz1GdInc+E98vyOvoy8mBP1Znunps/0/L97m9PP3MJ9L/Stt9Fvmt+a8fb/SPsLffPBPd8Yx/72B/o2l+W++Kg89YQTfH9+P2leY+/AcrT8mVumwz1gLkV+Pkm1pu9u7n9CPGLhIAMAAA=="},"shape":[100],"dtype":"float64","order":"little"}],["Value",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/2NgYGhY5TDHkYGBoSEpYhaIZpgWOANMu+pMA9OKFlPB8vkvJoP5N/0h9AUhCL1vxiSw+NZoFLrBwBbMbxBtmwjWD6UZOrQg/I8TJ4DF0WiGFDOwOMO2T/1gczsP9qHQDS0Qfh4XhE492wuWj5kAob3EILTFnB6wODqtHw8Rh9FqShC+yIpusHomPVT654cusPg9Swh9Zn8nmH+4CULvcoXQK053gMVh9Pw+CH9aICrdKwLhw+iW6+1gfTDaVacNzMdF27xvBcsbb4LQWqX4aUULiLzE7xawPhjNvw/Ch9FsjRD+X2dU+gsbhP/6ZDNY/6MeCH3THzt9QQgivm9GE1g9Or01GiK+Rg4/vfhhI1g/Oj1rCUQcFz0xHSKPi+7QgsjXv20Am49Ol22AiINoAOpqI5YgAwAA"},"shape":[100],"dtype":"float64","order":"little"}],["difference",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/1XPS0jUURgF8E9dmSIFko4QSUIig48hRgMlrtpmFmWSIC184QghFdkmBJXb+BifTRkTPSYZDHuByKAgCNbd2UJdREI5CKNoiCNtCl0oKveclasf53zfvff/FxG1XxAqF5HGP+431ux46Sur7sl4aY29cwYx342+QP/VA8Nn9kfRbwZgzFVFDytguDeX89H253YvHH0E9ecsmN3ke4Z+tguKqxOqj0XMbd8CeO9L5KlVdkJQr7VCs/d3BPPqCDQlHVB1HA1jf7kbmvvtUG08ZF/sYe8to4sJ7L8PDtlz5iCdOs5C5fw9aHvVnEdHJgZw/+MWqHbz6dh8P/ZWp6nzLh2uhHIlB5r3KfQyFc+i357T6/O04lKfzSbxAlTb56H0p9KZaC/2a8ah3GuFasp7SnE1IJvDHLoS77Hn5OIWXY1AvfYBmtJ6qP65mX8V0tcH3fieT3NQJ3XSvBtQxq5z/qMYqs1jH965HaT/A1A/6GPWVczXztGlNKhMCnOuQImvPMF/un9C5V1gHgpBUxtkv+OHcpPq+hbmW3Wc++8wJ9dAfTWTeWpL437fBjSTMVodgsrxVpefAKfAHCsgAwAA"},"shape":[100],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1048","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1049"}}},"glyph":{"type":"object","name":"Scatter","id":"p1044","attributes":{"x":{"type":"field","field":"Wage"},"y":{"type":"field","field":"Value"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"navy"},"line_alpha":{"type":"value","value":0.6},"fill_color":{"type":"value","value":"navy"},"fill_alpha":{"type":"value","value":0.6},"hatch_color":{"type":"value","value":"navy"},"hatch_alpha":{"type":"value","value":0.6}}},"nonselection_glyph":{"type":"object","name":"Scatter","id":"p1045","attributes":{"x":{"type":"field","field":"Wage"},"y":{"type":"field","field":"Value"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"navy"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"navy"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"navy"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Scatter","id":"p1046","attributes":{"x":{"type":"field","field":"Wage"},"y":{"type":"field","field":"Value"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"navy"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"navy"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"navy"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1018","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1031"},{"type":"object","name":"WheelZoomTool","id":"p1032","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1033","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1034","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1040","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1039","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"SaveTool","id":"p1041"},{"type":"object","name":"ResetTool","id":"p1042"},{"type":"object","name":"HelpTool","id":"p1043"},{"type":"object","name":"HoverTool","id":"p1050","attributes":{"renderers":"auto","tooltips":[["Juc\u0103tor","@Name"],["Valoare","@Value{0,0} \u20ac"],["Salariu","@Wage{0,0} \u20ac"],["Diferen\u021b\u0103","@difference{0,0} \u20ac"]],"sort_by":null}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1026","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1027","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1028"},"axis_label":"Valoare (Value)","major_label_policy":{"type":"object","name":"AllLabels","id":"p1029"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1021","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1022","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1023"},"axis_label":"Salariu (Wage)","major_label_policy":{"type":"object","name":"AllLabels","id":"p1024"}}}],"center":[{"type":"object","name":"Grid","id":"p1025","attributes":{"axis":{"id":"p1021"}}},{"type":"object","name":"Grid","id":"p1030","attributes":{"dimension":1,"axis":{"id":"p1026"}}}]}}]}}
+    </script>
+    <script>
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('edde36ce-a3d1-4742-97bc-19fd9c55a7d7').textContent;
+              const render_items = [{"docid":"a60a109a-041d-4536-a82a-607defe3a414","roots":{"p1009":"b06658ee-20fd-43ae-847f-9eba0e110ddd"},"root_ids":["p1009"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
